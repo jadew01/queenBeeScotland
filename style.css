@@ -236,7 +236,18 @@ input[type=submit]:hover {
   background-color: #bf7c00;
   padding-left: 70px;
   padding-right: 70px;
+   
   
+    
+}
+
+.column{
+    width: 100%;
+    float: left;
+
+}
+
+
     
     
 
