@@ -2,10 +2,14 @@ body{
     background-color: #FFA600;
 }
 
+background-image{
+    background-repeat: no-repeat;
+}
 
 
 .navbar-nav{
     width: 100%;
+    
    
     
 }
@@ -13,9 +17,31 @@ body{
 ul{
     text-align: center;
     
+    
 }
 
 
+
+
+
+.nav-link{
+    color: #dedede !important;
+    font-weight: bold;
+}
+
+
+
+.nav-link:hover {
+    font-weight: 600;
+    border-bottom: 2px solid #fff;
+}
+
+ 
+
+.is-active {
+    font-weight: 600;
+    border-bottom: 2px solid #fff;
+}
 
 #header{
     text-align: center;
@@ -34,16 +60,33 @@ h1{
 }
 
 h2{
-    font-family: opensans;
+    font-family: sans-serif;
     font-weight: bold;
     text-align: center;
 }
 
+h5{
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
 p{
-    font-family: opensans;
+    font-family: sans-serif;
+    font-size: 18px;
+    color: #dedede;   
+}
+
+.card-text{
+    color: black;
 }
 
 h4{
+    font-family: opensans;
+}
+
+h2{
+    color: #dedede;
+    font-size: 25;
     font-family: opensans;
 }
 
@@ -73,8 +116,14 @@ footer{
     background-color: #bf7c00;
     margin: 0 auto; 
     float: none; 
-    align-content: center;    
+    align-content: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    
 }
+
+
 
 .jumbotron iframe{
     border-style: solid;
@@ -86,27 +135,26 @@ footer{
     height: 10px;
     border-style: solid;
     border-width: thick;
-    
-}
-
-.video-container { 
-    position: relative; 
-    padding-bottom: 56.25%; 
-    padding-top: 30px; 
-    height: 0; 
-    overflow: hidden;
-    text-align: center;
-}
-
-.video-container iframe, .video-container object, .video-container embed { 
-    position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
-    height: 100%;
-    text-align: center;
-}
     
+}
+
+
+
+
+
+.embed-responsive embed-responsive-16by9 iframe{
+    height: 50%;
+    width: 50%;
+}
+
+.video-container iframe{
+    width: 65%;
+    height: 350px;
+    
+}
+
+
 .col-md-4{
     padding-bottom: 30px;
     padding-top: 30px;
@@ -119,20 +167,19 @@ footer{
 }
 
 .card{
-    background-color: #bf7c00;
+    background-color: #dedede;
     
 }
 
 
 .navbar-custom { 
     background-color: #bf7c00; 
+    color: #dedede;
 } 
 
 
 
-.nav-item active{
-    background-color: chartreuse;
-}
+
 
 
 
@@ -164,6 +211,7 @@ footer{
     width:100%;
     position:absolute;
     padding-left: 20px;
+    padding-bottom: 20px;
     
 }
 
@@ -183,7 +231,7 @@ th {
 }
 
 .call{
-    background-color: cadetblue;
+    background-color: #007bff;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -192,7 +240,7 @@ th {
 }
 
 .learnmore{
-  background-color: cadetblue;
+  background-color: #007bff;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -216,7 +264,7 @@ input[type=text], select, textarea {
 
 
 input[type=submit] {
-  background-color: cadetblue;
+  background-color: #007bff;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -245,6 +293,10 @@ input[type=submit]:hover {
     width: 100%;
     float: left;
 
+}
+
+form label{
+    float: left;
 }
 
 
