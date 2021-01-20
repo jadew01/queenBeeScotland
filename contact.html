@@ -49,8 +49,7 @@
                 <li class="nav-item">
                     <a class="nav-link" href="about.html">About Us</a>
                 </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="contact.html">Contact Us</a>
+                <li class="nav-item"><a class="nav-link is-active" href="contact.html">Contact Us<span class="sr-only">(current)</span></a>
                 </li>
                
                
@@ -65,28 +64,31 @@
 	<div class="row">
 		<div class="col-md-12">
   <div style="text-align:center">
-    <h2>Contact Us</h2>
+    <h2 style="color: black">Contact Us</h2>
+     <p style="color: black;">Contact us about general enquries, our be keeping course or sign up to our newletter. We look forward to hearing from you!</p>
   </div>
   
    
     <div class="column">
         <form name="contact" method="POST" data-netlify="true">
-                    <label for="fname">First Name</label>
+                    <label for="fname">First Name:</label>
                     <input type="text" id="fname" name="firstname" placeholder="Your name..">
-                    <label for="lname">Last Name</label>
+                    <label for="lname">Last Name:</label>
                     <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-                    <label for="email">Email</label>
+                    <label for="email">Email:</label>
                     <input type="text" id="email" name="email" placeholder="Your Email..">
-                    <label for="option">Select an option</label>
+                    <label for="option">Select an option:</label>
                     <select id="option" name="option">
                         <option value="contact">Contact us</option>
                         <option value="newsletter">Sign up for newsletter</option>
+                        <option value="bee keeping course">Bee keeping course</option>
             
             
             
                     </select>
-                    <label for="subject">Message</label>
+                    <label for="subject">Message:</label>
                     <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+                   
                     <input type="submit" value="Submit">
                 </form>
     </div>
@@ -100,12 +102,13 @@
             <div class="map-responsive">
            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2254.1843320949297!2d-2.725254284517942!3d55.5988055113266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x488782f99f8253e3%3A0x7f921710be9f1c56!2sHigh%20St%2C%20Melrose!5e0!3m2!1sen!2suk!4v1610207091239!5m2!1sen!2suk" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></div>
 		</div>
+        <br>
 		<div class="col-md-6">
-            <div style="background-image: url('images/openhours.png');" class="jumbotron" >
+            <div style="background-image: url('images/openhours.png'); padding: 91px;" class="jumbotron" >
 				<h2>
 					Opening Hours
 				</h2>				
-<table class="center">
+<table style="color: #dedede;" class="center">
 <tr><th>Monday - Friday</th><td>9am - 5pm</td></tr>
 <tr><th>Saturday - Sunday</th><td>10am - 4pm</td></tr>
 </table>		<br>
@@ -132,20 +135,21 @@
 <p>Visit us at:<br>
 Queen Bee<br>
  High Street, Melrose<br>
-Scotland</p>
+Scotland<br>
+    0131 455 6432</p>
 </address>
 		</div>
 		<div class="col-md-4">
             <div class="footer-social-icons">
-    <h4 class="_14">Follow us on</h4>
-                 <img src="images/twitter3.png" alt="apple"/>
+                <p>Follow us on:</p>
+                 <img src="images/twitter3.png" alt="twitter"/>
  
             </div>
 		</div>
 	</div>
 </div>
     
-    </footer>    
+    </footer>       
     
 
     
