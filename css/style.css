@@ -102,7 +102,7 @@ h2{
 
 
 footer{
-    background:url(../images/footer.png);
+    background:url(../images/footerdark.png);
     background-color: #bf7c00;
     text-align: center;
     
@@ -300,7 +300,11 @@ form label{
 }
 
 
+  
+.btn btn-primary{
+    color: black;
     
+}
  
 
 
