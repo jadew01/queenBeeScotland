@@ -59,11 +59,7 @@ h1{
     font-family: proza;
 }
 
-h2{
-    font-family: sans-serif;
-    font-weight: bold;
-    text-align: center;
-}
+
 
 h5{
     font-family: sans-serif;
@@ -73,7 +69,8 @@ h5{
 p{
     font-family: sans-serif;
     font-size: 18px;
-    color: #dedede;   
+    color: #dedede;  
+    font-weight: bold;
 }
 
 .card-text{
@@ -86,8 +83,11 @@ h4{
 
 h2{
     color: #dedede;
-    font-size: 25;
-    font-family: opensans;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    
 }
 
 #header img{
@@ -301,6 +301,8 @@ form label{
 
 
     
-    
+ 
+
+
 
 
